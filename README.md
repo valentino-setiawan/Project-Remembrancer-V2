@@ -41,4 +41,4 @@ kalau sudah berhasil, linknya disalin terus disimpan ya.
 
 #### Mengumpulkan website kamu
 
-Pertama, fork repo ini, kemudian tambahkan link halaman GitHub Pages kamu di dalam file `index.html`. kalau sudah di-commit dan sikronisasi dengan `git push`, buatlah sebuah pull request, dan tunggu sampai pull request kamu diterima.
+Pertama, fork repo ini, kemudian tambahkan link halaman GitHub Pages kamu di dalam file `index.html`. kalau sudah di-commit dan sikronisasi dengan `git push`, buatlah sebuah pull request, dan tunggu sampai pull request kamu diterima.# Project-Remembrancer-V2

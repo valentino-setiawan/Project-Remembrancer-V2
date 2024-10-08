@@ -1,0 +1,86 @@
+:root {
+    --MainCol: rgb(6,3,105);
+    --SecCol: rgb(57, 57, 255);
+    --TerCol: rgb(0, 42, 255);
+    --DefCol: #f3f3f3;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 230px;
+    background-image: url(../Source/HeaderBanner.png);
+    background-size: 100vw 100vh;
+    background-repeat: round;
+    display: flex;
+    border: 6px solid var(--MainCol);
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.dropdown {
+    background-color: var(--DefCol);
+    height: max-content;
+    align-self: center;
+}
+  
+.dropdown .dropbtn {
+    height: 220px;
+    border-right: 6px solid var(--MainCol);
+    padding: 1rem;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: var(--SecCol);
+}
+
+.active {
+    background-color: var(--SecCol);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--DefCol);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    transition: ease-in 0.5s;
+}
+  
+.dropdown-content a, .dropdown-content a:visited {
+    color: var(--MainCol);
+    border: 3px solid var(--MainCol);
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: var(--TerCol);
+}
+  
+.dropdown:hover .dropdown-content {
+    transition: ease-in 0.5s;
+    display: block;
+}
+
+.real section {
+    font-size: x-large;
+    min-width: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section h1 {
+    color: var(--DefCol);
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px var(--MainCol);
+}
+

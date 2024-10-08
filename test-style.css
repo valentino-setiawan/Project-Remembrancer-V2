@@ -13,7 +13,7 @@
 
 header {
     height: 230px;
-    background-image: url(../Source/HeaderBanner.png);
+    background-image: url(Source/HeaderBanner.png);
     background-size: 100vw 100vh;
     background-repeat: round;
     display: flex;

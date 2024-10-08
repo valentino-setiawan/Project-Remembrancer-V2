@@ -69,14 +69,18 @@ main section {
 }
 
 .HelpRedirect {
-    margin-top: 1rem;
+    margin: 2rem 0;
     text-align: center;
 }
+
+.Media .Siel {
+    object-position: 0% 40%;
+}
+
 
 .Media .Siel2 {
     object-position: center;
 }
-
 @media (max-width: 520px) {
     .Kill-em-all img {
     margin-left: 2rem;

@@ -77,10 +77,14 @@ main section {
     object-position: 0% 40%;
 }
 
-
 .Media .Siel2 {
     object-position: center;
 }
+
+.Media .Siel3 {
+    object-position: 0% 20%;
+}
+
 @media (max-width: 520px) {
     .Kill-em-all img {
     margin-left: 2rem;

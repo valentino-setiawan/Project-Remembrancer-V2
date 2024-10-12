@@ -31,6 +31,8 @@ header {
   
 .dropdown .dropbtn {
     height: 20vh;
+    width: 10vw;
+    min-width: fit-content;
     border: 6px solid var(--MainCol);
     border-left: none;
     padding: 1rem;
@@ -83,5 +85,13 @@ section h1 {
     font-style: italic;
     text-align: center;
     text-shadow: 2px 2px var(--MainCol);
+}
+
+@media (max-width: 600px) {
+    .dropdown-content a{
+        width: 45vw;
+        height: 8vh;
+    }
+
 }
 

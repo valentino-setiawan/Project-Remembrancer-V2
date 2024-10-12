@@ -42,8 +42,8 @@ main section {
 }
 
 .Media img {
-    height: 160px;
-    width: 230px;
+    max-height: 200px;
+    width: 40%;
     border: var(--MainCol) solid;
     border-radius: 20px;
     margin: 1rem;
@@ -85,8 +85,21 @@ main section {
     object-position: 0% 20%;
 }
 
-@media (max-width: 520px) {
+@media (max-width: 950px) {
     .Kill-em-all img {
     margin-left: 2rem;
     }
+
+    header {
+        height: 135px;
+    }
+
+    .dropdown .dropbtn {
+        height: 125px;
+    }
+}
+
+@media (max-width: 450px) {
+
+
 }

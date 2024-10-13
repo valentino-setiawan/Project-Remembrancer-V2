@@ -50,7 +50,7 @@ header {
     display: none;
     position: absolute;
     background-color: var(--DefCol);
-    min-width: 160px;
+    min-width: 25vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     transition: ease-in 0.5s;
 }
@@ -60,6 +60,7 @@ header {
     border: 3px solid var(--MainCol);
     padding: 1rem;
     text-decoration: none;
+    min-height: 5vh;
     display: block;
 }
   
@@ -87,11 +88,11 @@ section h1 {
     text-shadow: 2px 2px var(--MainCol);
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     .dropdown-content a{
         width: 45vw;
         height: 8vh;
     }
 
-}
+} */
 

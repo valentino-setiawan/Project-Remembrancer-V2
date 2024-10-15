@@ -53,8 +53,9 @@ main section {
 }
 
 .Media video {
-    height: 160px;
-    width: 230px;
+    max-height: 200px;
+    width: 40%;
+    max-width: 330px;
     border: var(--MainCol) solid;
     border-radius: 20px;
     margin: 1rem;

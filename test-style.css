@@ -21,6 +21,7 @@ header {
     justify-content: space-between;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .dropdown {
@@ -61,7 +62,10 @@ header {
     padding: 1rem;
     text-decoration: none;
     min-height: 15vh;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
 }
   
 .dropdown-content a:hover {

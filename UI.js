@@ -24,4 +24,37 @@
 //     else (Morph.setAttribute("src", "Source/bluntboi.png"))
     
 // }
-        
+
+// // Get the modal
+// var modal = document.getElementById("myModal");
+
+// // Get the image and insert it inside the modal - use its "alt" text as a caption
+// var img = document.getElementById("myImg");
+// var modalImg = document.getElementById("img01");
+// img.onclick = function(){
+//   modal.style.display = "block";
+//   modalImg.src = this.src;
+// }
+
+// // Get the <span> element that closes the modal
+
+// // When the user clicks on <span> (x), close the modal
+
+
+
+
+
+document.querySelectorAll(".Media img").forEach(image => {
+    image.onclick = () => {
+        document.querySelector(".modal").style.display = "flex";
+        document.querySelector(".modal img").src = image.getAttribute("src");
+    }
+});
+
+const span = document.getElementsByClassName("close")[0];
+const modal = document.getElementById("myModal");
+
+
+span.onclick = function() { 
+    modal.style.display = "none";
+}

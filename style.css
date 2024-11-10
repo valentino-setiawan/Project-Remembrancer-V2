@@ -18,7 +18,7 @@ main  h2 {
 }
 
 main section {
-    padding: 2rem 1rem;
+  padding: 2rem 1rem;
 }
 
 .Desc2 {
@@ -26,62 +26,67 @@ main section {
 }
 
 .HelpWanted {
-    padding: 3rem;
-    font-size: large;
+  padding: 3rem;
+  font-size: large;
 }
 
 .HelpWanted h2 {
-    padding: 1rem 0 0.5rem;
-    font-size: large;
+  padding: 1rem 0 0.5rem;
+  font-size: large;
+}
+
+.HelpWanted form {
+  margin-top: 600px;
+  margin-bottom: 400px;
 }
 
 .Media {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .Media img {
-    max-height: 200px;
-    width: 40%;
-    max-width: 230px;
-    border: var(--MainCol) solid;
-    border-radius: 20px;
-    margin: 1rem;
-    object-position: top;
-    object-fit: cover;
-    cursor: pointer;
-    transition: ease-in 0.3s;
+  max-height: 200px;
+  width: 40%;
+  max-width: 230px;
+  border: var(--MainCol) solid;
+  border-radius: 20px;
+  margin: 1rem;
+  object-position: top;
+  object-fit: cover;
+  cursor: pointer;
+  transition: ease-in 0.3s;
 }
 
 .Media video {
-    max-height: 200px;
-    width: 40%;
-    max-width: 230px;
-    border: var(--MainCol) solid;
-    border-radius: 20px;
-    margin: 1rem;
+  max-height: 200px;
+  width: 40%;
+  max-width: 230px;
+  border: var(--MainCol) solid;
+  border-radius: 20px;
+  margin: 1rem;
 }
 
 .Kill-em-all img {
-    margin-left: 5rem;
-    width: 426px;
-    height: 40px;
-    object-fit: cover;
-    object-position: 50% 100%; 
-    border-top: solid black 4px;
+  margin-left: 5rem;
+  width: 426px;
+  height: 40px;
+  object-fit: cover;
+  object-position: 50% 100%; 
+  border-top: solid black 4px;
 }
 
 @media (max-width: 950px) {
-    .Kill-em-all img {
-    margin-left: 2rem;
+  .Kill-em-all img {
+  margin-left: 2rem;
     }
 
 }
 
 .Media img:hover {
-    opacity: 0.7;
-    transform:skewX(1deg);
+  opacity: 0.7;
+  transform:skewX(1deg);
 }
 
 /* The Modal (background) */

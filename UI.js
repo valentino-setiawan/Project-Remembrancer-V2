@@ -44,20 +44,20 @@
 
 
 
-// document.querySelectorAll(".Media img").forEach(image => {
-//     image.onclick = () => {
-//         document.querySelector(".modal").style.display = "flex";
-//         document.querySelector(".modal img").src = image.getAttribute("src");
-//     }
-// });
+document.querySelectorAll(".Media img").forEach(image => {
+    image.onclick = () => {
+        document.querySelector(".modal").style.display = "flex";
+        document.querySelector(".modal img").src = image.getAttribute("src");
+    }
+});
 
-// const span = document.getElementsByClassName("close")[0];
-// const modal = document.getElementById("myModal");
+const span = document.getElementsByClassName("close")[0];
+const modal = document.getElementById("myModal");
 
 
-// span.onclick = function() { 
-//     modal.style.display = "none";
-// }
+span.onclick = function() { 
+    modal.style.display = "none";
+}
 
 const Input = document.querySelector("#password");
 const SuBtn = document.querySelector("#btn");

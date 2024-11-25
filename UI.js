@@ -40,24 +40,6 @@
 
 // // When the user clicks on <span> (x), close the modal
 
-
-
-const Input = document.querySelector("#password");
-const SuBtn = document.querySelector("#btn");
-
-function redir() {
-    window.location.href = "https://valentino-setiawan.github.io/Project-Remembrancer-V2/NOT-Ind/KoA.html"
-}
-
-SuBtn.addEventListener("click", function () {
-    console.log("e")
-    var passVal = Input.checkValidity();
-    if (passVal == true ) {
-       redir()
-       console.log("casserole")
-    }
-});
-
 document.querySelectorAll(".Media img").forEach(image => {
     image.onclick = () => {
         document.querySelector(".modal").style.display = "flex";
@@ -72,5 +54,22 @@ const modal = document.getElementById("myModal");
 span.onclick = function() { 
     modal.style.display = "none";
 }
+
+const Input = document.querySelector("#password");
+const SuBtn = document.querySelector("#btn");
+
+function redir() {
+    window.location.href = "https://valentino-setiawan.github.io/Project-Remembrancer-V2/NOT-Ind/KoA.html"
+}
+
+SuBtn.addEventListener("click", function () {
+    console.log("e")
+    var passVal = Input.value;
+    if (passVal === "ThroughHisWillAlone" ) {
+       redir()
+       console.log("casserole")
+    }
+});
+
 
 
